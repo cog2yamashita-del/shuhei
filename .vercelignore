@@ -1,0 +1,23 @@
+# Vercelデプロイ時に無視するファイル
+
+# サーバーディレクトリ（静的サイトのため不要）
+server/
+
+# 開発用ファイル
+node_modules/
+.git/
+.vite/
+*.log
+
+# ビルド出力（Vercelが自動生成）
+dist/
+
+# 環境変数ファイル
+.env
+.env.local
+.env.production
+
+# その他
+.DS_Store
+*.swp
+*.swo
